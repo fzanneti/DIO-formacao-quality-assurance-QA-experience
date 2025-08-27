@@ -200,7 +200,6 @@ Compreender níveis, tipos e técnicas de testes garante que o QA atue com preci
 ### 📖 Estudo complementar:
 
 * [ISTQB Syllabus](https://www.istqb.org/certifications/certified-tester-foundation-level)
-* [Software Testing Fundamentals](https://softwaretestingfundamentals.com/)
 
 ---
 
