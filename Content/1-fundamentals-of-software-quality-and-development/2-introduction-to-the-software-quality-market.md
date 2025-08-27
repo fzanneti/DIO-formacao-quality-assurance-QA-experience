@@ -69,10 +69,6 @@ Se esse fluxo falha em produção → perda de vendas + imagem arranhada.
   * **Testes autônomos** → scripts que se adaptam às mudanças no sistema.
   * **Quality Engineering (QE):** qualidade como prática de engenharia contínua.
 
-### 📖 Estudo complementar:
-
-* [O Futuro do QA com IA – Testim.io](https://www.testim.io/blog/ai-in-testing/)
-
 ---
 
 ### 2.2 – Afinal, o que faz um QA?
@@ -108,7 +104,6 @@ describe('Login', () => {
 
 ### 📖 Estudo complementar:
 
-* [SDET vs QA – Comparação](https://www.guru99.com/sdet-vs-qa.html)
 * [Cypress Docs](https://docs.cypress.io/)
 
 ---
