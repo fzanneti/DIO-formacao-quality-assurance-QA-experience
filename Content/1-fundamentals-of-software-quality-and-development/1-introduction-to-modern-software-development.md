@@ -2,6 +2,10 @@
 
 ## 1 - Fundamentos de Qualidade e Desenvolvimento de Software
 
+Este documento serve como guia para profissionais de QA (iniciantes a avançados) que desejam compreender o desenvolvimento moderno de software e suas responsabilidades como guardiões da qualidade em todas as etapas do ciclo de vida do software (SDLC). Ele aborda conceitos fundamentais, papéis do QA em diferentes camadas e tendências atuais e recursos para aprendizado contínuo.
+
+---
+
 ### 1.1 – Introdução ao Desenvolvimento Moderno de Software
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/fzanneti/fundamentals-of-software-quality-and-development-DIO)
@@ -14,17 +18,17 @@
 
 ## Introdução
 
-O desenvolvimento moderno de software não se limita a “escrever código”, mas sim a **entregar valor ao usuário** por meio de soluções digitais escaláveis, seguras e de fácil utilização.
+O desenvolvimento moderno de software vai além de “escrever código”. Trata-se de entregar valor ao usuário por meio de soluções digitais escaláveis, seguras e de fácil utilização. O ciclo de vida do software (SDLC) é orientado por práticas ágeis, automação e colaboração entre equipes, com o QA desempenhando um papel central na garantia da qualidade.
 
 Atualmente, o ciclo de vida de software (SDLC) é orientado por:
+- **Metodologias Ágeis**: Scrum, Kanban, SAFe.  
+- **Integração Contínua e Entrega Contínua (CI/CD)**: Automação de builds, testes e deploys.  
+- **DevOps**: Integração entre desenvolvimento, QA e operações para entregas rápidas e confiáveis.  
+- **Automação**: Testes automatizados, pipelines e monitoramento.  
+- **Shift-Left Testing**: QA participa desde a concepção, definindo critérios de aceitação e prevenindo defeitos.  
+- **Shift-Right Testing**: Monitoramento em produção para identificar problemas reais dos usuários.
 
-* **Metodologias Ágeis** → Scrum, Kanban, SAFe.
-* **Integração Contínua e Entrega Contínua (CI/CD)**.
-* **DevOps** → Integração entre desenvolvimento, QA e operações.
-* **Automação** → Testes automatizados, pipelines, deploys.
-
-O papel do QA se encaixa como guardião da qualidade em todas essas etapas, não apenas como testador, mas como um facilitador da entrega de software confiável, escalável e de valor real para o cliente.
-O QA moderno participa de todas essas etapas (mentalidade *shift-left testing*), ajudando a prevenir falhas desde o planejamento até a produção.
+* **O papel do QA:** O QA moderno não é apenas um “caçador de bugs”, mas um facilitador da qualidade, colaborando desde o planejamento até a produção.
 
 ### 📖 Estudo complementar:
 
@@ -35,11 +39,13 @@ O QA moderno participa de todas essas etapas (mentalidade *shift-left testing*),
 
 ## UX/UI Designer
 
-* **UX (User Experience):** experiência do usuário durante a interação.
-* **UI (User Interface):** design visual e usabilidade da aplicação.
-* **Relação com QA**:
-  - QA ajuda a validar se as interfaces entregues correspondem ao protótipo (ex.: testes de usabilidade, acessibilidade e compatibilidade).
-  - Exemplo prático: testar se o contraste de cores está adequado para acessibilidade (WCAG).
+* **UX (User Experience):** Foca na experiência do usuário durante a interação com a aplicação (ex.: facilidade de uso, eficiência).
+* **UI (User Interface):** Design visual e usabilidade (ex.: botões, cores, layouts).
+* **Relação com QA**: O QA valida se as interfaces entregues correspondem aos protótipos, garantindo usabilidade, acessibilidade (WCAG) e consistência visual com Design Systems (ex.: Material Design).
+* **Desafios**
+  - Testes de acessibilidade (ex.: contraste de cores, suporte a leitores de tela).
+  - Validação de consistência visual em diferentes dispositivos.
+  - Testes de usabilidade com usuários reais (ex.: testes A/B).
 
 ### 📖 Estudo complementar:
 
@@ -50,12 +56,19 @@ O QA moderno participa de todas essas etapas (mentalidade *shift-left testing*),
 
 ## Front End
 
-* **Definição:** camada visível pelo usuário (o "lado do cliente").
-* **Tecnologias comuns:** HTML5, CSS3, JavaScript, frameworks como React, Angular, Vue.
+* **Definição:** Camada visível pelo usuário (client-side), responsável pela interface e interatividade.
+* **Tecnologias comuns:**
+  - HTML5, CSS3, JavaScript.  
+  - Frameworks: React, Angular, Vue.js, Svelte (emergente).  
 * **Desafios para QA:**
-  - Testes de responsividade (funciona bem em diferentes tamanhos de tela?).
-  - Testes de compatibilidade cross-browser.
-  - Testes de performance (carregamento rápido, sem travamentos).
+  - **Responsividade**: Funciona em diferentes tamanhos de tela (mobile, tablet, desktop)?  
+  - **Compatibilidade Cross-Browser**: Suporte a Chrome, Firefox, Safari, Edge.  
+  - **Performance**: Carregamento rápido, sem travamentos (ex.: tempo de carregamento < 3s).  
+  - **Acessibilidade**: Suporte a ARIA (Accessible Rich Internet Applications).
+* **Ferramentas**  
+  - Lighthouse (performance e acessibilidade).  
+  - BrowserStack (testes cross-browser).  
+  - Percy/Applitools (testes visuais). 
 
 ### 📖 Estudo complementar:
 
@@ -66,13 +79,11 @@ O QA moderno participa de todas essas etapas (mentalidade *shift-left testing*),
 
 ## Framework
 
-* **O que é:** uma coleção estruturada de ferramentas, bibliotecas e boas práticas que aceleram o desenvolvimento.
+* **Definição:** Coleção estruturada de ferramentas, bibliotecas e boas práticas que aceleram o desenvolvimento.
 * **Exemplos:**
-  - Front End: React, Angular, Vue.js
-  - Back End: Spring Boot (Java), .NET, Django (Python), Express.js (Node.js)
-* **Importância para QA:**
-  - Influencia diretamente nas estratégias de teste (cada framework tem particularidades).
-  - Exemplo: em React, muitos testes são feitos com Jest + Testing Library.
+  - Front End: React, Angular, Vue.js, Svelte.
+  - Back End: Spring Boot (Java), .NET, Django (Python), FastAPI (Python), Express.js (Node.js).
+* **Importância para QA:** Cada framework tem particularidades que influenciam as estratégias de teste. Exemplo: em React, usa-se Jest + Testing Library para testes unitários de componentes; em Spring Boot, Rest Assured para testes de API.
 
 ### 📖 Estudo complementar:
 
@@ -84,13 +95,18 @@ O QA moderno participa de todas essas etapas (mentalidade *shift-left testing*),
 
 ## Back End
 
-* **Definição:** a camada responsável pelas regras de negócio, banco de dados e APIs.
+* **Definição:** Camada responsável pelas regras de negócio, banco de dados e APIs (server-side).
 * **Tecnologias comuns:** Java, C#, Python, Node.js, Go.
 * **Desafios para QA:**
-  - Validação de APIs (status codes, payload, autenticação).
-  - Testes de segurança (injeções, acessos indevidos).
-  - Testes de integração entre serviços.
-* **Ferramentas:** Postman, Newman, Rest Assured, JMeter.
+  - Validação de APIs (status codes, payloads, autenticação).  
+  - Testes de segurança (ex.: SQL injection, XSS).  
+  - Testes de integração entre serviços (ex.: microsserviços).  
+  - Testes de carga/estresse para performance.
+* **Ferramentas:**
+  - Postman/Newman (testes de API).  
+  - Rest Assured (testes de API em Java).  
+  - JMeter/Locust (testes de carga).  
+  - Pact (testes de contrato para microsserviços). 
 
 ### 📖 Estudo complementar:
 
@@ -101,14 +117,15 @@ O QA moderno participa de todas essas etapas (mentalidade *shift-left testing*),
 
 ## Full Stack
 
-* **Definição:** O **profissional full stack** transita entre Front End e Back End.
-* **Impacto no QA:**
-  - QA precisa conhecer um pouco de todo o fluxo: desde a interface até a API e o banco de dados.
-  - Testes end-to-end (E2E) são mais relevantes nesse contexto.
-* **Exemplo:** validar um fluxo completo de compra em e-commerce:
-  - Usuário adiciona item no carrinho (Front End).
-  - Sistema processa pedido (Back End).
-  - Dados são salvos e retornados ao cliente (Banco + API).
+* **Definição:** Profissional que transita entre Front End e Back End, lidando com interface, APIs e banco de dados.
+* **Impacto no QA:** O QA full stack valida fluxos completos (end-to-end, E2E), garantindo integração entre camadas.
+* **Desafios:**  
+  - Testes E2E (ex.: fluxo de compra em e-commerce).  
+  - Integração entre serviços (ex.: Front End chamando APIs).  
+  - Validação de dados em banco (ex.: consistência após uma transação).  
+* **Ferramentas:**  
+  - Cypress, Playwright, Selenium (testes E2E).  
+  - Postman (validação de APIs).  
 
 ### 📖 Estudo complementar:
 
@@ -118,13 +135,24 @@ O QA moderno participa de todas essas etapas (mentalidade *shift-left testing*),
 
 ## QA (Quality Assurance)
 
-* **Evolução:** deixou de ser apenas “quem encontra bugs” para se tornar um papel estratégico que previne problemas e contribui para a qualidade em todas as etapas.
-* **Principais funções:**
-  - Definição de critérios de aceitação junto ao time.
-  - Criação de testes automatizados e manuais.
-  - Validação de requisitos funcionais e não funcionais.
-  - Monitoramento de qualidade em produção.
-* **Mentalidade moderna:** Shift-left testing → QA participa desde o início do desenvolvimento. Hoje o QA participa desde a concepção, definindo critérios de aceitação, apoiando Devs, e garantindo qualidade contínua.
+* **Definição:** O QA moderno é um papel estratégico que previne defeitos, define critérios de aceitação e garante qualidade em todas as fases do SDLC.  
+* **Principais Funções:**  
+  - Definir critérios de aceitação com o time.  
+  - Criar e executar testes manuais e automatizados.  
+  - Validar requisitos funcionais (ex.: funcionalidades) e não funcionais (ex.: performance, segurança).  
+  - Monitorar qualidade em produção (shift-right).  
+* **Mentalidade Moderna:**  
+  - **Shift-Left**: QA participa desde o planejamento, escrevendo casos de teste baseados em requisitos.  
+  - **Shift-Right**: Monitoramento de logs e métricas em produção.  
+  - **Pirâmide de Testes**: Maior volume de testes unitários, seguido por integração e E2E.  
+* **Ferramentas:**  
+  - Cucumber (BDD).  
+  - TestCafe, Robot Framework (automação).  
+  - Prometheus, Grafana (monitoramento).  
+* **Métricas de Qualidade:**  
+  - Cobertura de testes (>80% para unitários).  
+  - Taxa de defeitos (ex.: <5% de bugs em produção).  
+  - Tempo médio para resolução de bugs.
 
 ### 📖 Estudo complementar:
 
@@ -135,12 +163,15 @@ O QA moderno participa de todas essas etapas (mentalidade *shift-left testing*),
 
 ## Infraestrutura
 
-* **Definição:** recursos necessários para rodar e manter uma aplicação (servidores, redes, banco de dados, containers).
+* **Definição:** Recursos necessários para rodar uma aplicação (servidores, redes, containers, banco de dados).
 * **Papel no QA:**
   - Validação de ambientes (homologação, staging, produção).
   - Testes de resiliência e disponibilidade.
   - Monitoramento de logs e métricas.
-* **Ferramentas:** Docker, Kubernetes, Terraform.
+* **Ferramentas:**
+  - Docker, Kubernetes (orquestração).  
+  - Terraform (IaC).  
+  - Chaos Monkey (Chaos Engineering).
 
 ### 📖 Estudo complementar:
 
@@ -151,13 +182,16 @@ O QA moderno participa de todas essas etapas (mentalidade *shift-left testing*),
 
 ## Cloud
 
-* **Definição:** entrega de serviços de TI via internet (IaaS, PaaS, SaaS).
+* **Definição:** Entrega de serviços de TI via internet (IaaS, PaaS, SaaS). 
 * **Principais provedores:** AWS, Azure, Google Cloud.
 * **Impacto para QA:**
-  - Testes em ambientes distribuídos.
-  - Escalabilidade e performance em nuvem.
-  - Testes de segurança em múltiplos serviços.
-* **Exemplo:** validar se uma aplicação escala automaticamente em um pico de acessos.
+  - Testes em ambientes distribuídos.  
+  - Escalabilidade e performance (ex.: auto-scaling).  
+  - Segurança em múltiplos serviços (ex.: IAM, criptografia).
+* **Ferramentas:**  
+  - AWS Device Farm (testes mobile).  
+  - Gatling (testes de carga).  
+  - AWS Lambda (serverless).  
 
 ### 📖 Estudo complementar:
 
@@ -168,12 +202,16 @@ O QA moderno participa de todas essas etapas (mentalidade *shift-left testing*),
 
 ## Mobile
 
-* **Definição:** desenvolvimento de aplicações para smartphones e tablets.
+* **Definição:** Desenvolvimento de aplicações para smartphones e tablets (iOS, Android).
 * **Desafios de QA:**
-  - Testes em múltiplos dispositivos, sistemas e versões (fragmentação).
-  - Testes offline/online.
-  - Performance (uso de bateria, memória, rede).
-* **Ferramentas:** Appium, Espresso (Android), XCTest (iOS).
+  - Fragmentação: Múltiplos dispositivos, sistemas e versões.  
+  - Testes offline/online (ex.: comportamento sem internet).  
+  - Performance: Uso de bateria, memória, rede.  
+  - Push notifications e deep links. 
+* **Ferramentas:**
+  - Appium, Espresso (Android), XCTest (iOS).  
+  - BrowserStack, Sauce Labs (testes em dispositivos reais).  
+  - Fastlane, Bitrise (CI/CD mobile).
 
 ### 📖 Estudo complementar:
 
@@ -182,11 +220,29 @@ O QA moderno participa de todas essas etapas (mentalidade *shift-left testing*),
 
 ---
 
+## Tabela de Ferramentas
+
+| **Categoria**            | **Ferramentas**                              | **Uso**                              |
+|--------------------------|----------------------------------------------|--------------------------------------|
+| Testes de API            | Postman, Newman, Rest Assured               | Validação de endpoints e payloads    |
+| Testes E2E              | Cypress, Playwright, Selenium               | Testes de fluxos completos           |
+| Testes Mobile           | Appium, Espresso, XCTest                    | Automação em iOS e Android           |
+| Testes de Performance    | JMeter, Locust, Gatling                    | Carga e estresse                     |
+| Acessibilidade           | Lighthouse, Axe, WAVE                      | Conformidade com WCAG                |
+| Monitoramento           | Prometheus, Grafana, New Relic             | Logs e métricas em produção          |
+| CI/CD                   | Jenkins, GitHub Actions, Fastlane          | Automação de pipelines               |
+| Infraestrutura          | Docker, Kubernetes, Terraform              | Gestão de ambientes                  |
+| Testes Visuais          | Percy, Applitools                          | Consistência visual cross-browser    |
+
+---
+
 ## Conclusão
 
-O **desenvolvimento moderno de software** é multidisciplinar e integrado.
-O QA atua como **elo central da qualidade**, validando desde a experiência do usuário (UX/UI) até a performance e segurança em ambientes cloud.
-Para se destacar como QA moderno, é essencial ter **visão holística** do ciclo de vida do software, saber dialogar com diferentes áreas (devs, designers, ops) e adotar ferramentas que permitam automação e monitoramento contínuo.
+O desenvolvimento moderno de software é multidisciplinar, exigindo colaboração entre áreas (devs, designers, ops). O QA atua como elo central, validando desde a experiência do usuário (UX/UI) até a performance e segurança em ambientes cloud. Para se destacar, o QA moderno precisa:  
+- **Visão Holística**: Conhecer todo o fluxo do SDLC.  
+- **Automação**: Dominar ferramentas como Cypress, Appium e Postman.  
+- **Soft Skills**: Comunicação e colaboração para alinhar expectativas com o time.  
+- **Aprendizado Contínuo**: Participar de comunidades como Ministry of Testing ou eventos como QA Global Summit.
 
 ### 📖 Estudo complementar:
 
