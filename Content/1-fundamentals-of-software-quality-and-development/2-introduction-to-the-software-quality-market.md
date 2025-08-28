@@ -2,6 +2,10 @@
 
 ## 2 - Introdução ao Mercado de Qualidade de Software
 
+Este módulo apresenta o mercado de Qualidade de Software (QA), suas tendências, responsabilidades e o roadmap para se tornar um profissional competitivo. Ele combina fundamentos técnicos, tendências futuras, certificações e soft skills, oferecendo uma visão holística para QAs iniciantes e experientes.
+
+---
+
 ### 2.1 – Mercado e Tendências
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/fzanneti/fundamentals-of-software-quality-and-development-DIO)
@@ -15,7 +19,6 @@
 ### Introdução
 
 A área de **Qualidade de Software (QA)** está em constante crescimento devido à transformação digital e à necessidade das empresas entregarem **aplicações robustas, seguras e com excelente experiência do usuário**.
-
 Segundo o **World Quality Report**, mais de 60% das organizações aumentaram seus investimentos em **testes e automação de qualidade** nos últimos anos.
 
 ---
@@ -166,7 +169,7 @@ Além das habilidades técnicas, o QA precisa de:
 
 ### Encerramento do Módulo
 
-O QA moderno vai muito além de testes manuais. Ele atua como **engajador de qualidade**, conectando negócios, tecnologia e usuário final.
+O QA moderno é um agente de qualidade, conectando negócios, tecnologia e usuários. Ele combina habilidades técnicas (automação, APIs, SQL), certificações (ISTQB, AWS) e soft skills (comunicação, colaboração) para garantir entregas confiáveis.
 O roadmap ideal combina **fundamentos de testes, automação, APIs, bancos de dados, cloud, metodologias ágeis e certificações**.
 
 ### 📖 Estudo complementar:
