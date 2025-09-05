@@ -29,8 +29,8 @@ Segundo o **World Quality Report**, mais de 60% das organizações aumentaram se
 
 ### Estudo complementar:
 
-* [World Quality Report 2024-25](https://www.capgemini.com/insights/research-library/world-quality-report-2024-25/)
-* [Carreira em QA no Glassdoor](https://www.glassdoor.com.br/Carreira/qa-carreira_KO0,2.htm)
+🔗[World Quality Report 2024-25](https://www.capgemini.com/insights/research-library/world-quality-report-2024-25/)     
+🔗[Carreira em QA no Glassdoor](https://www.glassdoor.com.br/Carreira/qa-carreira_KO0,2.htm)
 
 ---
 
@@ -79,7 +79,7 @@ A qualidade impacta diretamente em:
 
 ### Estudo complementar:
 
-* [Cypress Docs](https://docs.cypress.io/)
+🔗[Cypress Docs](https://docs.cypress.io/)
 
 ---
 
@@ -95,7 +95,7 @@ A qualidade impacta diretamente em:
 
 ### Estudo complementar:
 
-* [ISTQB Official Site](https://www.istqb.org/)
+🔗[ISTQB Official Site](https://www.istqb.org/)
 
 ---
 
@@ -113,8 +113,8 @@ Para se tornar um QA competitivo:
 
 ### Estudo complementar:
 
-* [Guia SQL W3Schools](https://www.w3schools.com/sql/)
-* [Playwright Docs](https://playwright.dev/)
+🔗[Guia SQL W3Schools](https://www.w3schools.com/sql/)     
+🔗[Playwright Docs](https://playwright.dev/)
 
 ---
 
@@ -137,7 +137,7 @@ O roadmap ideal combina **fundamentos de testes, automação, APIs, bancos de da
 
 ### Estudo complementar:
 
-* [Roadmap QA Engineer – Roadmap.sh](https://roadmap.sh/qa)
+🔗[Roadmap QA Engineer – Roadmap.sh](https://roadmap.sh/qa)
 
 ---
 
