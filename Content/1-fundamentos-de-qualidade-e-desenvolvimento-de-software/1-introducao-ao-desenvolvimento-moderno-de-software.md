@@ -30,8 +30,8 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ### Estudo complementar:
 
-* [Manifesto Ágil](https://agilemanifesto.org/iso/ptbr/manifesto.html)
-* [Ciclo de Vida de Software (SDLC)](https://www.geeksforgeeks.org/software-development-life-cycle-sdlc/)
+🔗[Manifesto Ágil](https://agilemanifesto.org/iso/ptbr/manifesto.html)     
+🔗[Ciclo de Vida de Software (SDLC)](https://www.geeksforgeeks.org/software-development-life-cycle-sdlc/)
 
 ---
 
@@ -47,8 +47,8 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ### Estudo complementar:
 
-* [W3C - Web Accessibility](https://www.w3.org/WAI/)
-* [UX Design - Nielsen Norman Group](https://www.nngroup.com/articles/)
+🔗[W3C - Web Accessibility](https://www.w3.org/WAI/)   
+🔗[UX Design - Nielsen Norman Group](https://www.nngroup.com/articles/)   
 
 ---
 
@@ -70,8 +70,8 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ### Estudo complementar:
 
-* [MDN Web Docs - HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-* [React - Documentação Oficial](https://react.dev/)
+🔗[MDN Web Docs - HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)   
+🔗[React - Documentação Oficial](https://react.dev/)   
 
 ---
 
@@ -85,9 +85,9 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ### Estudo complementar:
 
-* [Spring Boot (Java)](https://spring.io/projects/spring-boot)
-* [.NET (Microsoft)](https://dotnet.microsoft.com/)
-* [Angular](https://angular.dev/)
+🔗[Spring Boot (Java)](https://spring.io/projects/spring-boot)    
+🔗[.NET (Microsoft)](https://dotnet.microsoft.com/)    
+🔗[Angular](https://angular.dev/)   
 
 ---
 
@@ -108,8 +108,8 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ### Estudo complementar:
 
-* [Node.js](https://nodejs.org/)
-* [Postman - Ferramenta de Teste de API](https://www.postman.com/)
+🔗[Node.js](https://nodejs.org/)       
+🔗[Postman - Ferramenta de Teste de API](https://www.postman.com/)   
 
 ---
 
@@ -127,7 +127,7 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ### Estudo complementar:
 
-* [O que é Full Stack Developer?](https://www.geeksforgeeks.org/what-is-full-stack-development/)
+🔗[O que é Full Stack Developer?](https://www.geeksforgeeks.org/what-is-full-stack-development/)
 
 ---
 
@@ -154,8 +154,8 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ### Estudo complementar:
 
-* [ISTQB Foundation Level (CTFL)](https://www.istqb.org/certifications/certified-tester-foundation-level)
-* [BDD com Cucumber](https://cucumber.io/docs/guides/overview/)
+🔗[ISTQB Foundation Level (CTFL)](https://www.istqb.org/certifications/certified-tester-foundation-level)    
+🔗[BDD com Cucumber](https://cucumber.io/docs/guides/overview/)   
 
 ---
 
@@ -173,8 +173,8 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ### Estudo complementar:
 
-* [Docker - Documentação Oficial](https://docs.docker.com/)
-* [Kubernetes - Introdução](https://kubernetes.io/pt/docs/concepts/overview/)
+🔗[Docker - Documentação Oficial](https://docs.docker.com/)    
+🔗[Kubernetes - Introdução](https://kubernetes.io/pt/docs/concepts/overview/)    
 
 ---
 
@@ -193,8 +193,8 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ### Estudo complementar:
 
-* [AWS - O que é Cloud Computing?](https://aws.amazon.com/pt/what-is-cloud-computing/)
-* [Azure Fundamentals](https://learn.microsoft.com/pt-br/azure/?product=popular)
+🔗[AWS - O que é Cloud Computing?](https://aws.amazon.com/pt/what-is-cloud-computing/)    
+🔗[Azure Fundamentals](https://learn.microsoft.com/pt-br/azure/?product=popular)    
 
 ---
 
@@ -213,8 +213,8 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ### Estudo complementar:
 
-* [Appium - Automação de Testes Mobile](https://appium.io/)
-* [Google - Guia de Performance para Apps](https://developer.android.com/topic/performance?hl=pt-br)
+* [Appium - Automação de Testes Mobile](https://appium.io/)    
+* [Google - Guia de Performance para Apps](https://developer.android.com/topic/performance?hl=pt-br)    
 
 ---
 
@@ -244,8 +244,8 @@ O desenvolvimento moderno de software é multidisciplinar, exigindo colaboraçã
 
 ### Estudo complementar:
 
-* [DevOps e QA - Atlassian](https://www.atlassian.com/devops/devops-tools/qa)
-* [Cultura de Qualidade - ThoughtWorks](https://www.thoughtworks.com/insights/articles/culture-of-quality)
+🔗[DevOps e QA - Atlassian](https://www.atlassian.com/devops/devops-tools/qa)     
+🔗[Cultura de Qualidade - ThoughtWorks](https://www.thoughtworks.com/insights/articles/culture-of-quality)    
 
 ---
 
