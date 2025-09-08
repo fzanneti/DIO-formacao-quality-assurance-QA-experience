@@ -25,7 +25,7 @@ Um **processo de software** é um conjunto estruturado de atividades que guiam o
 
 ---
 
-## Definindo Processo, Fluxo e Padrões de Software
+### Definindo Processo, Fluxo e Padrões de Software
 
 - **Processo**: Conjunto de etapas e atividades (ex.: levantamento de requisitos, testes, implantação).  
 - **Fluxo**: Sequência lógica das atividades.  
@@ -35,7 +35,7 @@ Um **processo de software** é um conjunto estruturado de atividades que guiam o
 
 ---
 
-## Modelo Prescritivo
+### Modelo Prescritivo
 
 Modelos tradicionais, como **Cascata (Waterfall)** e **Modelo em V**, seguem um fluxo rígido e sequencial.  
 
@@ -54,12 +54,9 @@ Modelos tradicionais, como **Cascata (Waterfall)** e **Modelo em V**, seguem um 
 - Pouca flexibilidade para mudanças.  
 - Testes tardios aumentam o custo de correções.  
 
-**📌 Exemplo Prático**:  
+--- 
 
-- **Cenário**: Sistema bancário com requisitos fixos.  
-  - QA valida documentos de requisitos antes do desenvolvimento e executa testes funcionais no final.  
-
-### **Estudo Complementar**:  
+### Estudo Complementar:  
 
 🔗[Waterfall Model – IBM](https://www.ibm.com/topics/waterfall-model)     
 🔗[Modelo em V – ISTQB](https://www.istqb.org/)  
@@ -78,16 +75,9 @@ Modelos tradicionais, como **Cascata (Waterfall)** e **Modelo em V**, seguem um 
 - Colaborar em iterações para refinar requisitos.  
 - Monitorar fluxos concorrentes para garantir integração.  
 
-**📌 Exemplo Prático**:  
-
-- **Cenário**: Desenvolvimento de um app de e-commerce.  
-  - Incremento 1: Funcionalidade de login.  
-  - Iteração: Melhorar UI do login com base em testes de usabilidade.  
-  - Concorrência: QA testa login enquanto devs implementam carrinho.  
-
 ---
 
-## Modelos Especializados
+### Modelos Especializados
 
 - **Prototipagem**: Cria protótipos rápidos para validar conceitos com usuários.  
 - **RAD (Rapid Application Development)**: Prioriza entregas rápidas e feedback contínuo.  
@@ -97,16 +87,18 @@ Modelos tradicionais, como **Cascata (Waterfall)** e **Modelo em V**, seguem um 
 
 - Testar protótipos para usabilidade e funcionalidade.  
 - Validar entregas rápidas no RAD com testes exploratórios.  
-- Avaliar riscos no modelo espiral (ex.: testes de segurança).  
+- Avaliar riscos no modelo espiral (ex.: testes de segurança).
 
-### **Estudo Complementar**:  
+---
+
+### Estudo Complementar:  
 
 🔗[RAD – Microsoft](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/legacy/aa295769(v=vs.60))    
 🔗[Spiral Model – GeeksforGeeks](https://www.geeksforgeeks.org/software-engineering-spiral-model/)  
 
 ---
 
-## Processo Unificado (RUP)
+### Processo Unificado (RUP)
 
 O **Rational Unified Process (RUP)** organiza o desenvolvimento em quatro fases:  
 1. **Concepção**: Definição da ideia e escopo.  
@@ -118,13 +110,7 @@ O **Rational Unified Process (RUP)** organiza o desenvolvimento em quatro fases:
 
 - Participar da elaboração para definir critérios de aceitação.  
 - Executar testes funcionais e de integração na construção.  
-- Validar entrega final na transição (ex.: testes de aceitação do usuário - UAT).  
-
-**📌 Exemplo Prático**:  
-
-- **Cenário**: Sistema de CRM.  
-  - QA colabora na elaboração para criar casos de teste baseados em requisitos.  
-  - Executa testes de integração na construção (ex.: integração com API de e-mails).  
+- Validar entrega final na transição (ex.: testes de aceitação do usuário - UAT).
 
 ---
 
@@ -150,7 +136,7 @@ Criado em 2001, o 🔗[Manifesto Ágil](https://agilemanifesto.org/iso/ptbr/mani
 
 ---
 
-## Extreme Programming (XP)
+### Extreme Programming (XP)
 
 Metodologia ágil focada em **qualidade** e **feedback rápido**.  
 
@@ -161,15 +147,17 @@ Metodologia ágil focada em **qualidade** e **feedback rápido**.
 - **Refatoração**: Melhorias contínuas no código sem alterar funcionalidade.  
 - **Entregas Frequentes**: Pequenos incrementos entregues regularmente.  
 
-**Papel do QA**: Criar e manter testes unitários, colaborar em refatoração e validar entregas frequentes.  
+**Papel do QA**: Criar e manter testes unitários, colaborar em refatoração e validar entregas frequentes. 
 
-### **Estudo Complementar**:  
+---
+
+### Estudo Complementar:  
 
 🔗[Extreme Programming](http://www.extremeprogramming.org/)  
 
 ---
 
-## Scrum
+### Scrum
 
 Framework ágil mais popular, estruturado em:  
 - **Papéis**: Product Owner (define prioridades), Scrum Master (facilita o processo), Time de Desenvolvimento (inclui QAs).  
@@ -184,7 +172,7 @@ Framework ágil mais popular, estruturado em:
 
 ---
 
-## Outros Modelos Ágeis
+### Outros Modelos Ágeis
 
 - **Kanban**: Visualiza o fluxo de trabalho em quadros (ex.: Trello, Jira).  
 - **Lean**: Elimina desperdícios, focando no valor ao cliente.  
@@ -196,7 +184,9 @@ Framework ágil mais popular, estruturado em:
 - No Lean, otimizar testes para reduzir retrabalho.  
 - No Crystal, colaborar intensamente com devs e stakeholders.  
 
-### **📖 Estudo Complementar**: 
+---
+
+### Estudo Complementar: 
 
 🔗[Kanban – Atlassian](https://www.atlassian.com/agile/kanban)     
 🔗[Lean Software Development](https://www.lean.org/)  
@@ -217,7 +207,7 @@ Nos métodos tradicionais, testes ocorrem no final do desenvolvimento, aumentand
 
 ---
 
-## Testes nas Abordagens Ágeis
+### Testes nas Abordagens Ágeis
 
 - **Contínuos**: Executados em cada sprint, integrados ao pipeline CI/CD.  
 - **Automatizados**: Ferramentas como Selenium, Cypress e Playwright aceleram validação.  
@@ -235,7 +225,7 @@ Nos métodos tradicionais, testes ocorrem no final do desenvolvimento, aumentand
 
 ---
 
-## Métodos de Testes nos Modelos Ágeis
+### Métodos de Testes nos Modelos Ágeis
 
 - **TDD (Test-Driven Development)**: Escreve testes antes do código, guiando a implementação.  
 - **BDD (Behavior-Driven Development)**: Testes baseados em comportamentos esperados, usando linguagem natural (ex.: Gherkin).  
@@ -245,7 +235,9 @@ Nos métodos tradicionais, testes ocorrem no final do desenvolvimento, aumentand
 
 - **IA no QA**: Ferramentas como Testim e Mabl geram casos de teste automaticamente.  
 - **Testes Autônomos**: Scripts que se adaptam a mudanças na UI.  
-- **DevSecOps**: Integração de testes de segurança (ex.: OWASP ZAP) nos pipelines ágeis.  
+- **DevSecOps**: Integração de testes de segurança (ex.: OWASP ZAP) nos pipelines ágeis. 
+
+---
 
 ### **Estudo Complementar**:  
 
@@ -264,7 +256,7 @@ Nos métodos tradicionais, testes ocorrem no final do desenvolvimento, aumentand
 
 ---
 
-## Links de Estudo
+### Links de Estudo
 
 🔗[Manifesto Ágil](https://agilemanifesto.org/iso/ptbr/manifesto.html)    
 🔗[Scrum Guide](https://scrumguides.org/)    
