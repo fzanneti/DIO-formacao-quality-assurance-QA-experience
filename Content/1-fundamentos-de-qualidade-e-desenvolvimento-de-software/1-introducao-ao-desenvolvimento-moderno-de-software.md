@@ -28,6 +28,8 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 * **O papel do QA:** O QA moderno não é apenas um “caçador de bugs”, mas um facilitador da qualidade, colaborando desde o planejamento até a produção.
 
+---
+
 ### Estudo complementar:
 
 🔗[Manifesto Ágil](https://agilemanifesto.org/iso/ptbr/manifesto.html)     
@@ -35,7 +37,7 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ---
 
-## UX/UI Designer
+### UX/UI Designer
 
 * **UX (User Experience):** Foca na experiência do usuário durante a interação com a aplicação (ex.: facilidade de uso, eficiência).
 * **UI (User Interface):** Design visual e usabilidade (ex.: botões, cores, layouts).
@@ -45,6 +47,8 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
   - Validação de consistência visual em diferentes dispositivos.
   - Testes de usabilidade com usuários reais (ex.: testes A/B).
 
+---
+
 ### Estudo complementar:
 
 🔗[W3C - Web Accessibility](https://www.w3.org/WAI/)   
@@ -52,7 +56,7 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ---
 
-## Front End
+### Front End
 
 * **Definição:** Camada visível pelo usuário (client-side), responsável pela interface e interatividade.
 * **Tecnologias comuns:**
@@ -68,6 +72,8 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
   - BrowserStack (testes cross-browser).  
   - Percy/Applitools (testes visuais). 
 
+---
+
 ### Estudo complementar:
 
 🔗[MDN Web Docs - HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)   
@@ -75,13 +81,15 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ---
 
-## Framework
+### Framework
 
 * **Definição:** Coleção estruturada de ferramentas, bibliotecas e boas práticas que aceleram o desenvolvimento.
 * **Exemplos:**
   - Front End: React, Angular, Vue.js, Svelte.
   - Back End: Spring Boot (Java), .NET, Django (Python), FastAPI (Python), Express.js (Node.js).
 * **Importância para QA:** Cada framework tem particularidades que influenciam as estratégias de teste. Exemplo: em React, usa-se Jest + Testing Library para testes unitários de componentes; em Spring Boot, Rest Assured para testes de API.
+
+---
 
 ### Estudo complementar:
 
@@ -91,7 +99,7 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ---
 
-## Back End
+### Back End
 
 * **Definição:** Camada responsável pelas regras de negócio, banco de dados e APIs (server-side).
 * **Tecnologias comuns:** Java, C#, Python, Node.js, Go.
@@ -106,6 +114,8 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
   - JMeter/Locust (testes de carga).  
   - Pact (testes de contrato para microsserviços). 
 
+---
+
 ### Estudo complementar:
 
 🔗[Node.js](https://nodejs.org/)       
@@ -113,7 +123,7 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ---
 
-## Full Stack
+### Full Stack
 
 * **Definição:** Profissional que transita entre Front End e Back End, lidando com interface, APIs e banco de dados.
 * **Impacto no QA:** O QA full stack valida fluxos completos (end-to-end, E2E), garantindo integração entre camadas.
@@ -125,13 +135,15 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
   - Cypress, Playwright, Selenium (testes E2E).  
   - Postman (validação de APIs).  
 
+---
+
 ### Estudo complementar:
 
 🔗[O que é Full Stack Developer?](https://www.geeksforgeeks.org/what-is-full-stack-development/)
 
 ---
 
-## QA (Quality Assurance)
+### QA (Quality Assurance)
 
 * **Definição:** O QA moderno é um papel estratégico que previne defeitos, define critérios de aceitação e garante qualidade em todas as fases do SDLC.  
 * **Principais Funções:**  
@@ -152,6 +164,8 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
   - Taxa de defeitos (ex.: <5% de bugs em produção).  
   - Tempo médio para resolução de bugs.
 
+---
+
 ### Estudo complementar:
 
 🔗[ISTQB Foundation Level (CTFL)](https://www.istqb.org/certifications/certified-tester-foundation-level)    
@@ -159,7 +173,7 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ---
 
-## Infraestrutura
+### Infraestrutura
 
 * **Definição:** Recursos necessários para rodar uma aplicação (servidores, redes, containers, banco de dados).
 * **Papel no QA:**
@@ -171,6 +185,8 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
   - Terraform (IaC).  
   - Chaos Monkey (Chaos Engineering).
 
+---
+
 ### Estudo complementar:
 
 🔗[Docker - Documentação Oficial](https://docs.docker.com/)    
@@ -178,7 +194,7 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ---
 
-## Cloud
+### Cloud
 
 * **Definição:** Entrega de serviços de TI via internet (IaaS, PaaS, SaaS). 
 * **Principais provedores:** AWS, Azure, Google Cloud.
@@ -189,7 +205,9 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 * **Ferramentas:**  
   - AWS Device Farm (testes mobile).  
   - Gatling (testes de carga).  
-  - AWS Lambda (serverless).  
+  - AWS Lambda (serverless). 
+
+--- 
 
 ### Estudo complementar:
 
@@ -198,7 +216,7 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ---
 
-## Mobile
+### Mobile
 
 * **Definição:** Desenvolvimento de aplicações para smartphones e tablets (iOS, Android).
 * **Desafios de QA:**
@@ -211,6 +229,8 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
   - BrowserStack, Sauce Labs (testes em dispositivos reais).  
   - Fastlane, Bitrise (CI/CD mobile).
 
+---
+
 ### Estudo complementar:
 
 * [Appium - Automação de Testes Mobile](https://appium.io/)    
@@ -218,7 +238,7 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ---
 
-## Tabela de Ferramentas
+### Tabela de Ferramentas
 
 | **Categoria**            | **Ferramentas**                              | **Uso**                              |
 |--------------------------|----------------------------------------------|--------------------------------------|
@@ -234,13 +254,15 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ---
 
-## Conclusão
+### Conclusão
 
 O desenvolvimento moderno de software é multidisciplinar, exigindo colaboração entre áreas (devs, designers, ops). O QA atua como elo central, validando desde a experiência do usuário (UX/UI) até a performance e segurança em ambientes cloud. Para se destacar, o QA moderno precisa:  
 - **Visão Holística**: Conhecer todo o fluxo do SDLC.  
 - **Automação**: Dominar ferramentas como Cypress, Appium e Postman.  
 - **Soft Skills**: Comunicação e colaboração para alinhar expectativas com o time.  
 - **Aprendizado Contínuo**: Participar de comunidades como Ministry of Testing ou eventos como QA Global Summit.
+
+---
 
 ### Estudo complementar:
 
