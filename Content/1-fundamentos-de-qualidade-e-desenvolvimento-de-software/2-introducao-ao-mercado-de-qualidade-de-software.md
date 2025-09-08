@@ -21,11 +21,13 @@ Segundo o **World Quality Report**, mais de 60% das organizações aumentaram se
 
 ---
 
-## Contextualização do Mercado de TI e de QA
+### Contextualização do Mercado de TI e de QA
 
 * O mercado de TI cresce aceleradamente impulsionado por **IA, cloud, mobile, IoT e automação**.
 * A qualidade de software deixou de ser uma etapa final e se tornou **parte essencial do processo de desenvolvimento**.
 * Empresas buscam cada vez mais **QAs com visão analítica, técnica e estratégica**.
+
+---
 
 ### Estudo complementar:
 
@@ -34,7 +36,7 @@ Segundo o **World Quality Report**, mais de 60% das organizações aumentaram se
 
 ---
 
-## Importância da Qualidade de Software
+### Importância da Qualidade de Software
 
 A qualidade impacta diretamente em:
 
@@ -44,7 +46,7 @@ A qualidade impacta diretamente em:
 
 ---
 
-## O Presente e o Futuro da Área de Qualidade
+### O Presente e o Futuro da Área de Qualidade
 
 * **Presente:**
 
@@ -70,12 +72,14 @@ A qualidade impacta diretamente em:
 
 ---
 
-## Perfis e Responsabilidades de um QA
+### Perfis e Responsabilidades de um QA
 
 * **QA Manual:** executa casos de teste exploratórios, funcionais e de usabilidade.
 * **QA Automatizado:** desenvolve scripts e frameworks de automação.
 * **SDET (Software Development Engineer in Test):** perfil híbrido entre Dev e QA.
 * **Quality Engineer (QE):** atua estrategicamente, garantindo qualidade em todo o ciclo.
+
+---
 
 ### Estudo complementar:
 
@@ -83,7 +87,7 @@ A qualidade impacta diretamente em:
 
 ---
 
-## O Papel das Certificações na Carreira de QA
+### O Papel das Certificações na Carreira de QA
 
 * **ISTQB – CTFL (Certified Tester Foundation Level):** mais reconhecida internacionalmente.
 * **CTAL (Advanced Level):** níveis mais avançados.
@@ -92,6 +96,8 @@ A qualidade impacta diretamente em:
   * Automação: Selenium WebDriver, Cypress.
   * Cloud: AWS/Azure Fundamentals.
   * Ágil: Scrum Master, SAFe.
+
+---
 
 ### Estudo complementar:
 
@@ -110,6 +116,8 @@ Para se tornar um QA competitivo:
 * **Automação:** Selenium, Cypress, Playwright.
 * **APIs:** Postman, Rest Assured.
 * **Banco de Dados:** SQL básico (SELECT, JOIN, INSERT, UPDATE).
+
+---
 
 ### Estudo complementar:
 
@@ -130,10 +138,12 @@ Além das habilidades técnicas, o QA precisa de:
 
 ---
 
-## Encerramento do Módulo
+### Encerramento do Módulo
 
 O QA moderno é um agente de qualidade, conectando negócios, tecnologia e usuários. Ele combina habilidades técnicas (automação, APIs, SQL), certificações (ISTQB, AWS) e soft skills (comunicação, colaboração) para garantir entregas confiáveis.
 O roadmap ideal combina **fundamentos de testes, automação, APIs, bancos de dados, cloud, metodologias ágeis e certificações**.
+
+---
 
 ### Estudo complementar:
 
