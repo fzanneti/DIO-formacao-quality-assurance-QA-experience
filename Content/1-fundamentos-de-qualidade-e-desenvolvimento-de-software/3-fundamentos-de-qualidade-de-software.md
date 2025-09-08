@@ -27,7 +27,7 @@ Ela está diretamente ligada a fatores como:
 
 ---
 
-## Definindo Qualidade
+### Definindo Qualidade
 
 Segundo a **ISO 8402**, qualidade é:
 
@@ -37,11 +37,13 @@ Para software, isso significa: entregar **mais do que apenas código funcionando
 
 ---
 
-## Normas e Padrões de Qualidade
+### Normas e Padrões de Qualidade
 
 * **ISO/IEC 25010 (sucessora da ISO 9126):** define atributos de qualidade de software.
 * **IEEE 829:** padrão para documentação de testes.
 * **CMMI (Capability Maturity Model Integration):** modelo de maturidade em processos de software.
+
+---
 
 ### Estudo complementar:
 
@@ -50,7 +52,7 @@ Para software, isso significa: entregar **mais do que apenas código funcionando
 
 ---
 
-## Medindo Qualidade
+### Medindo Qualidade
 
 A qualidade pode ser medida por **métricas objetivas**, como:
 
@@ -61,13 +63,15 @@ A qualidade pode ser medida por **métricas objetivas**, como:
 
 ---
 
-## Processo de Gerenciamento de Qualidade
+### Processo de Gerenciamento de Qualidade
 
 Envolve 3 pilares:
 
 1. **Planejamento da qualidade** → definição de critérios e métricas.
 2. **Garantia da qualidade (QA)** → práticas para assegurar conformidade.
 3. **Controle da qualidade (QC)** → execução de testes e monitoramento.
+
+---
 
 ### Estudo complementar:
 
@@ -83,7 +87,7 @@ Controle de Qualidade é **detectar falhas** no produto e garantir que o softwar
 
 ---
 
-## Caracterizando Defeitos
+### Caracterizando Defeitos
 
 Um **defeito** é qualquer divergência entre o software entregue e o comportamento esperado.
 Pode se apresentar como:
@@ -94,7 +98,7 @@ Pode se apresentar como:
 
 ---
 
-## Ciclo de Vida do Bug
+### Ciclo de Vida do Bug
 
 1. **Novo** → bug reportado.
 2. **Atribuído** → direcionado a um desenvolvedor.
@@ -105,12 +109,14 @@ Pode se apresentar como:
 
 ---
 
-## Ferramentas de Suporte
+### Ferramentas de Suporte
 
 * **Jira** → gerenciamento ágil de bugs e tarefas.
 * **Azure DevOps** → pipelines + controle de defeitos.
 * **Bugzilla** → tradicional para bug tracking.
 * **MantisBT** → open source.
+
+---
 
 ### Estudo complementar:
 
@@ -128,7 +134,7 @@ Pode se apresentar como:
 
 ---
 
-## Processo de Teste
+### Processo de Teste
 
 Etapas principais:
 
@@ -140,7 +146,7 @@ Etapas principais:
 
 ---
 
-## Níveis de Teste
+### Níveis de Teste
 
 * **Unitário** → valida pequenas partes do código.
 * **Integração** → garante que módulos funcionem juntos.
@@ -149,11 +155,13 @@ Etapas principais:
 
 ---
 
-## Tipos de Teste
+### Tipos de Teste
 
 * **Funcionais:** caixa preta, regressão, smoke test.
 * **Não funcionais:** performance, carga, segurança, usabilidade.
 * **Exploratórios:** investigação livre pelo QA.
+
+---
 
 ### Estudo complementar:
 
@@ -161,14 +169,15 @@ Etapas principais:
 
 ---
 
-## Técnicas de Teste
+### Técnicas de Teste
 
 * **Caixa Preta** → sem conhecer código.
 * **Caixa Branca** → validando lógica interna.
 * **Particionamento de Equivalência.**
 * **Análise de Valor Limite.**
 
-📌 Exemplo:
+---
+
 Se o campo "idade" deve aceitar valores de **18 a 60**:
 
 * Casos válidos: 18, 30, 60.
@@ -176,10 +185,12 @@ Se o campo "idade" deve aceitar valores de **18 a 60**:
 
 ---
 
-## Conclusão
+### Conclusão
 
 Testes de software são parte essencial do **processo de qualidade**.
 Compreender níveis, tipos e técnicas de testes garante que o QA atue com precisão, prevenindo falhas críticas e elevando a confiabilidade do produto.
+
+---
 
 ### Estudo complementar:
 
