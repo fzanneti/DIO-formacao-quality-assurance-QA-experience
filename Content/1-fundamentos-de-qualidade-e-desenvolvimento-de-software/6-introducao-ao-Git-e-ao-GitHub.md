@@ -265,6 +265,7 @@ Conflitos ocorrem quando **duas alterações colidem** (ex.: mesma linha editada
 ## 6.8 - Git e QA
 
 ### Integração com CI/CD
+
 QAs usam GitHub Actions para automatizar testes em pipelines CI/CD.  
 
 ---
