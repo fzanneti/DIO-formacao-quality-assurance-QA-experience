@@ -277,7 +277,7 @@ class Calculadora {
 
 ### Visual Studio Code
 
-- **Extensão**: **Extension Pack for Java**, **Test Runner for Java**.  
+- **Extensão**: *Extension Pack for Java*, *Test Runner for Java*.  
 - **Atalho**: `Ctrl + F5` para rodar testes.  
 - **Funcionalidade**: Exibe resultados com cobertura diretamente no editor.  
 
