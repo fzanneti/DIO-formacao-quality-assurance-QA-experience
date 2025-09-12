@@ -16,11 +16,9 @@ Este módulo apresenta os **testes unitários** utilizando o **JUnit 5**, uma bi
 
 ### Introdução
 
-**Testes unitários** verificam o comportamento de unidades isoladas de código (ex.: métodos, classes), garantindo qualidade e confiabilidade. O **JUnit 5** é a biblioteca padrão para testes em Java, amplamente adotada em projetos ágeis e DevOps.
-
-**Papel do QA**: Escrever e manter testes unitários para validar lógica de negócio, detectar erros precocemente e documentar o comportamento esperado.
-
-**Tendência 2025**: Uso de ferramentas de IA (ex.: Testim, GitHub Copilot) para sugerir casos de teste e otimizar a cobertura.
+- **Testes unitários** verificam o comportamento de unidades isoladas de código (ex.: métodos, classes), garantindo qualidade e confiabilidade. O **JUnit 5** é a biblioteca padrão para testes em Java, amplamente adotada em projetos ágeis e DevOps.
+- **Papel do QA**: Escrever e manter testes unitários para validar lógica de negócio, detectar erros precocemente e documentar o comportamento esperado.
+- **Tendência 2025**: Uso de ferramentas de IA (ex.: Testim, GitHub Copilot) para sugerir casos de teste e otimizar a cobertura.
 
 ---
 
@@ -44,44 +42,44 @@ Este módulo apresenta os **testes unitários** utilizando o **JUnit 5**, uma bi
 
 ### Exemplo:
 
-- **Sem Testes**:  
+**Sem Testes**:  
 
-  ```java
+```java
 
-  public class Calculadora {
-      public int somar(int a, int b) {
-          return a + b; // Erro potencial: e se mudar para a * b?
-      }
-  }
+public class Calculadora {
+    public int somar(int a, int b) {
+        return a + b; // Erro potencial: e se mudar para a * b?
+    }
+}
 
-  ```
+```
 
-* Uma alteração acidental pode passar despercebida.  
+> Uma alteração acidental pode passar despercebida.  
 
-- **Com Testes (JUnit 5)**:  
+**Com Testes (JUnit 5)**:  
 
-  ```java
+```java
 
-  import org.junit.jupiter.api.Test;
-  import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
-  class CalculadoraTest {
-      @Test
-      void deveSomarDoisNumerosPositivos() {
-          Calculadora calc = new Calculadora();
-          assertEquals(5, calc.somar(2, 3), "2 + 3 deve retornar 5");
-      }
-  }
+class CalculadoraTest {
+    @Test
+    void deveSomarDoisNumerosPositivos() {
+        Calculadora calc = new Calculadora();
+        assertEquals(5, calc.somar(2, 3), "2 + 3 deve retornar 5");
+    }
+}
 
-  class Calculadora {
-      int somar(int a, int b) {
-          return a + b;
-      }
-  }
+class Calculadora {
+    int somar(int a, int b) {
+        return a + b;
+    }
+}
 
-  ```
+```
 
-* O teste falha se a lógica for alterada incorretamente.
+> O teste falha se a lógica for alterada incorretamente.
 
 ---
 
