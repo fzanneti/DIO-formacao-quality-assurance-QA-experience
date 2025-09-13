@@ -299,22 +299,11 @@ class Calculadora {
 ### Estudo Complementar:
 
 🔗[GitHub Codespaces](https://docs.github.com/pt/codespaces)  
-
----
-
-## 2.6 - Integração com CI/CD
-
-Testes unitários são executados automaticamente em pipelines CI/CD para garantir qualidade contínua.
-
----
-
-### Estudo Complementar:
-
 🔗[GitHub Actions](https://docs.github.com/pt/actions)  
 
 ---
 
-## 2.7 - Boas Práticas
+## 2.6 - Boas Práticas
 
 - **Testes Pequenos e Claros**: Teste uma única funcionalidade por método.  
 - **Nomenclatura Descritiva**: Use nomes como `deveValidarCPFValido` ou `deveLancarExcecaoParaEntradaInvalida`.  
@@ -325,19 +314,7 @@ Testes unitários são executados automaticamente em pipelines CI/CD para garant
 
 ---
 
-## 2.8 - Tabela de Ferramentas
-
-| **Categoria**            | **Ferramentas**                              | **Uso**                              |
-|--------------------------|----------------------------------------------|--------------------------------------|
-| Testes Unitários         | JUnit 5, TestNG, Mockito                    | Validação de lógica interna           |
-| Cobertura de Código      | JaCoCo, Clover, SonarQube                   | Análise de cobertura de testes       |
-| CI/CD                    | GitHub Actions, Jenkins, Azure Pipelines    | Automação de testes                  |
-| IDEs                     | IntelliJ IDEA, VS Code, Eclipse             | Execução e depuração de testes       |
-| IA no QA                 | Testim, Mabl, GitHub Copilot                | Geração de testes automatizada       |
-
----
-
-## 2.9 - Conclusão
+## 2.7 - Conclusão
 
 - **Testes unitários com JUnit 5** são fundamentais para garantir a qualidade de aplicações Java.  
 - Eles reduzem custos de manutenção, previnem regressões e servem como documentação.  
