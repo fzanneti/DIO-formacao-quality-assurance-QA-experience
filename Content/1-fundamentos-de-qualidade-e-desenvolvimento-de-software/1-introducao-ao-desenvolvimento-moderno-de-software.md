@@ -37,6 +37,12 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ---
 
+<img src="https://github.com/fzanneti/DIO-formacao-quality-assurance-QA-experience/blob/main/Assets/Images/ux_ui.jpeg" alt="UX & UI" width="600px">
+
+🔗[Entendendo de uma vez o que é UI Design e UX Design](https://medium.com/@tassiogoncalvesg/entendendo-de-uma-vez-o-que-%C3%A9-ui-design-e-ux-design-506f23536335)
+
+---
+
 ### UX/UI Designer
 
 * **UX (User Experience):** Foca na experiência do usuário durante a interação com a aplicação (ex.: facilidade de uso, eficiência).
@@ -53,6 +59,12 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 🔗[W3C - Web Accessibility](https://www.w3.org/WAI/)   
 🔗[UX Design - Nielsen Norman Group](https://www.nngroup.com/articles/)   
+
+---
+
+<img src="https://github.com/fzanneti/DIO-formacao-quality-assurance-QA-experience/blob/main/Assets/Images/front-end_back-end.jpeg" alt="FrontEnd & BackEnd" width="600px">
+
+🔗[Qual é a diferença entre front-end e back-end?](https://www.covildodev.com.br/article/front-end-back-end)
 
 ---
 
