@@ -31,7 +31,9 @@ Este módulo apresenta o **Mockito**, uma biblioteca essencial para criar **mock
 
 **O que é um Mock?**
 
-Um **mock** é um objeto simulado que imita o comportamento de uma dependência real, permitindo testar uma classe isoladamente.
+Um **mock** é um objeto simulado que imita o comportamento de uma dependência real, permitindo testar uma classe isoladamente.   
+Utilizamos **mocks** quando queremos obter respostas esperadas de objetos que compõem nossos testes mas sem necessariamente utilizar de algum recurso. Por exemplo: chamadas para APIs, Bancos de Dados.
+Para criar um mock, usamos na classe que desejamos "mockar" a anotação `@Mock` e para injetar esse mock na classe que estamos testando utilizamos a anotação `@InjectMocks`.
 
 ---
 
@@ -40,6 +42,10 @@ Um **mock** é um objeto simulado que imita o comportamento de uma dependência 
 - Evita chamadas a serviços externos (ex.: APIs, bancos).  
 - Acelera testes (sem I/O).  
 - Simula cenários complexos (ex.: falhas de rede). 
+
+---
+
+A anotação `@ExtendWith(MockitoExtension.class)` é necessária para a integração do Mockito com o JUnit 5.
 
 ---
 
@@ -125,11 +131,31 @@ class UsuarioTest {
 
 ```
 
+**Como funciona?**
+
+- **`Mockito.when`(...):** É o método principal do Mockito para configurar o comportamento de um mock. Ele indica "quando" um determinado método for chamado.
+- **`objeto.chamaUmMetodo()`:** É a chamada do método que você quer simular. O Mockito intercepta essa chamada.
+- **`.thenReturn(2)`:** É o método que define o que a chamada anterior deve retornar. Neste caso, sempre que o método `chamaUmMetodo()` for invocado no objeto mock, ele retornará o valor `2`, em vez de executar a sua lógica original.
+
+> Essa técnica é fundamental em testes de unidade, pois permite isolar a classe que está sendo testada, controlando as dependências dela e garantindo que o teste seja focado apenas na lógica da classe em questão.
+
 ---
 
 ### 3.4 - Espionando Objetos
 
 Um **spy** é um objeto real que permite sobrescrever comportamentos específicos, mantendo a implementação original quando não mockada.
+
+**Como o @Spy funciona?**
+
+Diferentemente do @Mock, que cria um objeto completamente simulado e sem comportamento real, o @Spy cria uma instância real da classe. Isso significa que:
+
+- **Comportamento Real:** O `spy` executa os métodos da classe normalmente.
+- **Monitoramento:** Você pode usar o `spy` para verificar se um método foi chamado e quantas vezes, usando a instrução `verify()`.
+- **Sobrescrevendo Comportamento:** Se precisar, você pode simular o comportamento de um método específico no `spy` usando `doReturn()` ou `doThrow()`. Essa é a abordagem recomendada para `spies`, pois o uso de `when()` pode ter efeitos inesperados em alguns casos.
+
+Use `@Spy` quando você quer testar a classe real, mas precisa ter a capacidade de verificar interações ou, em casos específicos, simular o comportamento de métodos que dependem de outras partes do sistema.
+
+---
 
 **Exemplo**:  
 
@@ -161,11 +187,50 @@ class SpyTest {
 
 ```
 
+```java
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Spy;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+
+@ExtendWith(MockitoExtension.class)
+class SpyTestComAnotacao {
+
+    @Spy
+    List<String> spyLista = new ArrayList<>();
+
+    @Test
+    void deveEspionarLista() {
+        spyLista.add("QA");
+        spyLista.add("Mockito");
+
+        when(spyLista.size()).thenReturn(100);
+
+        assertEquals(100, spyLista.size());
+        assertEquals("QA", spyLista.get(0));
+        verify(spyLista).add("Mockito");
+    }
+}
+
+```
+
 ---  
 
 ### 3.5 - Capturando Argumentos
 
 O **ArgumentCaptor** permite capturar e inspecionar argumentos passados a métodos mockados.
+A anotação `@Captor` permite capturar argumentos de uma chamada utilizando Mockito
+
+---
 
 **Exemplo**:  
 
@@ -185,6 +250,37 @@ class ArgumentCaptorTest {
         usuario.notificar("Mensagem Importante");
 
         ArgumentCaptor<String> captor = ArgumentCaptor.forClass(String.class);
+        verify(servicoMock).enviar(captor.capture());
+
+        assertEquals("Mensagem Importante", captor.getValue());
+    }
+}
+
+```
+
+```java
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.ArgumentCaptor;
+import org.mockito.Captor;
+import org.mockito.junit.jupiter.MockitoExtension;
+import static org.mockito.Mockito.*;
+import static org.junit.jupiter.api.Assertions.*;
+
+@ExtendWith(MockitoExtension.class)
+class ArgumentCaptorWithCaptorTest {
+
+    @Captor
+    ArgumentCaptor<String> captor;
+
+    @Test
+    void deveCapturarMensagemEnviadaComAnotacao() {
+        ServicoEmail servicoMock = mock(ServicoEmail.class);
+        Usuario usuario = new Usuario(servicoMock);
+
+        usuario.notificar("Mensagem Importante");
+
         verify(servicoMock).enviar(captor.capture());
 
         assertEquals("Mensagem Importante", captor.getValue());
@@ -226,7 +322,8 @@ class RetornosTest {
 
 ### 3.7 - Mockando Métodos Estáticos
 
-Desde o **Mockito 3.4+**, é possível mockar métodos estáticos usando `MockedStatic`.
+- Desde o **Mockito 3.4+**, é possível mockar métodos estáticos usando `MockedStatic`.
+- `mockito-inline` essa dependência permite fazer testes de métodos estáticos.
 
 **Exemplo**:
 
