@@ -110,6 +110,8 @@ public class HelloWorldTest {
 
 ### Como Executar:
 
+🔗[Maven Repository](https://mvnrepository.com/)
+
 - **Maven**: `mvn test`  
 - **Gradle**: `gradle test`  
 - **IDE**: Clique direito no arquivo > *Run As JUnit Test* (Eclipse) ou `Ctrl + Shift + F10` (IntelliJ).  
