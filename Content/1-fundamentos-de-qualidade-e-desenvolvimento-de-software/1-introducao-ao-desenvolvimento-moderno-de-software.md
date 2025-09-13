@@ -57,8 +57,8 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ### Estudo complementar:
 
-🔗[W3C - Web Accessibility](https://www.w3.org/WAI/){target="_blank"}   
-🔗[UX Design - Nielsen Norman Group](https://www.nngroup.com/articles/){target="_blank"}   
+🔗[W3C - Web Accessibility](https://www.w3.org/WAI/){:target="_blank"}   
+🔗[UX Design - Nielsen Norman Group](https://www.nngroup.com/articles/){:target="_blank"}   
 
 ---
 
