@@ -259,38 +259,13 @@ Conflitos ocorrem quando **duas alterações colidem** (ex.: mesma linha editada
 ### Estudo Complementar: 
 
 🔗[Resolvendo Conflitos - GitHub](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts)  
-
----
-
-## 6.8 - Git e QA
-
-### Integração com CI/CD
-
-QAs usam GitHub Actions para automatizar testes em pipelines CI/CD.  
-
----
-
-### Estudo Complementar:
-
 🔗[Playwright - Documentação](https://playwright.dev/)  
 🔗[Snyk - Segurança](https://snyk.io/)  
 🔗[GitHub Codespaces](https://docs.github.com/pt/codespaces)  
 
 ---
 
-## 6.9 - Tabela de Ferramentas
-
-| **Categoria**            | **Ferramentas**                              | **Uso**                              |
-|--------------------------|----------------------------------------------|--------------------------------------|
-| Controle de Versão       | Git, GitHub, GitLab, Bitbucket              | Gerenciamento de código               |
-| Interface Gráfica        | GitKraken, GitHub Desktop, VS Code GitLens  | Visualização e gestão de repositórios |
-| CI/CD                    | GitHub Actions, Jenkins, Azure Pipelines    | Automação de testes                  |
-| Testes Automatizados     | Cypress, Playwright, Testim                 | Testes E2E e funcionais              |
-| Segurança                | Snyk, Dependabot                            | Análise de vulnerabilidades          |
-
----
-
-## 6.10 - Conclusão
+## 6.8 - Conclusão
 
 - O **Git** é essencial para QAs, permitindo versionamento de scripts de teste e colaboração em equipe.  
 - O **GitHub** potencializa o Git com PRs, Issues e Actions, integrando testes ao fluxo CI/CD.  
