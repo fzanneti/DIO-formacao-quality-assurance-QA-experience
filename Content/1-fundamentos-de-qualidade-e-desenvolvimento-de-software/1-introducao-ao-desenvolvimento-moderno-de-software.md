@@ -93,24 +93,6 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ---
 
-### Framework
-
-* **Definição:** Coleção estruturada de ferramentas, bibliotecas e boas práticas que aceleram o desenvolvimento.
-* **Exemplos:**
-  - Front End: React, Angular, Vue.js, Svelte.
-  - Back End: Spring Boot (Java), .NET, Django (Python), FastAPI (Python), Express.js (Node.js).
-* **Importância para QA:** Cada framework tem particularidades que influenciam as estratégias de teste. Exemplo: em React, usa-se Jest + Testing Library para testes unitários de componentes; em Spring Boot, Rest Assured para testes de API.
-
----
-
-### Estudo complementar:
-
-🔗[Spring Boot (Java)](https://spring.io/projects/spring-boot)    
-🔗[.NET (Microsoft)](https://dotnet.microsoft.com/)    
-🔗[Angular](https://angular.dev/)   
-
----
-
 ### Back End
 
 * **Definição:** Camada responsável pelas regras de negócio, banco de dados e APIs (server-side).
@@ -135,6 +117,12 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 
 ---
 
+<img src="https://github.com/fzanneti/DIO-formacao-quality-assurance-QA-experience/blob/main/Assets/Images/fullstack.jpeg" alt="FullStack" width="600px">
+
+🔗[O que é um desenvolvedor Full Stack: tudo o que você precisa saber](https://br.bitdegree.org/tutoriais/full-stack)
+
+---
+
 ### Full Stack
 
 * **Definição:** Profissional que transita entre Front End e Back End, lidando com interface, APIs e banco de dados.
@@ -152,6 +140,24 @@ Atualmente, o ciclo de vida de software (SDLC) é orientado por:
 ### Estudo complementar:
 
 🔗[O que é Full Stack Developer?](https://www.geeksforgeeks.org/what-is-full-stack-development/)
+
+---
+
+### Framework
+
+* **Definição:** Coleção estruturada de ferramentas, bibliotecas e boas práticas que aceleram o desenvolvimento.
+* **Exemplos:**
+  - Front End: React, Angular, Vue.js, Svelte.
+  - Back End: Spring Boot (Java), .NET, Django (Python), FastAPI (Python), Express.js (Node.js).
+* **Importância para QA:** Cada framework tem particularidades que influenciam as estratégias de teste. Exemplo: em React, usa-se Jest + Testing Library para testes unitários de componentes; em Spring Boot, Rest Assured para testes de API.
+
+---
+
+### Estudo complementar:
+
+🔗[Spring Boot (Java)](https://spring.io/projects/spring-boot)    
+🔗[.NET (Microsoft)](https://dotnet.microsoft.com/)    
+🔗[Angular](https://angular.dev/)   
 
 ---
 
