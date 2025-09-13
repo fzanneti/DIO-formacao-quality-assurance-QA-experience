@@ -29,7 +29,7 @@ Os **testes de software** são essenciais no desenvolvimento moderno, garantindo
 
 ---
 
-## 2.2 - Definição e Conceitos Básicos
+## 1.2 - Definição e Conceitos Básicos
 
 ### Definição de Testes
 
@@ -157,20 +157,7 @@ A **pirâmide de testes**, proposta por Mike Cohn, orienta a distribuição de t
 
 ---
 
-## 1.7 - Tabela de Ferramentas
-
-| **Categoria**            | **Ferramentas**                              | **Uso**                              |
-|--------------------------|----------------------------------------------|--------------------------------------|
-| Testes Unitários         | JUnit 5, TestNG, Mockito                    | Validação de lógica interna           |
-| Testes de Integração     | WireMock, RestAssured                       | Testes de APIs e serviços            |
-| Testes E2E               | Playwright, Cypress, Selenium               | Simulação de fluxos reais            |
-| Performance              | JMeter, Gatling, Locust                     | Testes de carga e estresse           |
-| Segurança                | OWASP ZAP, Snyk, Dependabot                 | Análise de vulnerabilidades          |
-| Acessibilidade           | Lighthouse, Axe                             | Conformidade com WCAG                |
-
----
-
-## 1.8 - Conclusão
+## 1.7 - Conclusão
 
 - Testes de software são cruciais para **qualidade**, **redução de custos** e **satisfação do cliente**.  
 - Os **níveis de teste** (unitário, integração, sistema, aceitação) cobrem diferentes aspectos do sistema.  
