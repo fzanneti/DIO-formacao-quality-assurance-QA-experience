@@ -285,7 +285,13 @@ O desenvolvimento moderno de software é multidisciplinar, exigindo colaboraçã
 ### Estudo complementar:
 
 🔗[DevOps e QA - Atlassian](https://www.atlassian.com/devops/devops-tools/qa)     
-🔗[Cultura de Qualidade - ThoughtWorks](https://www.thoughtworks.com/insights/articles/culture-of-quality)    
+🔗[Cultura de Qualidade - ThoughtWorks](https://www.thoughtworks.com/insights/articles/culture-of-quality) 
+
+---
+
+### Certificado
+
+<img src="https://github.com/fzanneti/DIO-formacao-quality-assurance-QA-experience/blob/main/Assets/Images/introducao_ao_desenvolvimento_moderno_de_software.jpg" alt="Certificado" width="600px">
 
 ---
 
